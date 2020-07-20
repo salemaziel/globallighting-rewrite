@@ -1,0 +1,87 @@
+#modalmailing {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.modalmailing {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  height: 60%;
+  border-radius: 5px;
+  margin: 50px 0 0;
+  padding: 20px;
+  z-index: 4;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  left: 100px;
+  right: 0;
+  transform: translate(50%, 20%);
+}
+.modalmailingOverlay {
+  position: fixed;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (max-width: 480px) {
+  .modalmailing {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+    height: 40%;
+    border-radius: 5px;
+    margin: 50px 0 0;
+    padding: 20px;
+    z-index: 4;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    left: 50px;
+    right: 0;
+    transform: translate(5%, 20%);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .modalmailing {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+    height: 65%;
+    border-radius: 5px;
+    margin: 50px 0 0;
+    padding: 10px;
+    z-index: 4;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    left: 50px;
+    right: 0;
+    transform: translate(5%, 20%);
+  }
+}

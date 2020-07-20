@@ -1,0 +1,152 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+/*** ### Section Three ### ***/
+.synergy{
+	position:relative;
+	padding:0px 0px 50px;
+	background-size:cover;
+}
+.synergy h2{
+	position:relative;
+	margin:0px;
+	padding:1rem 0 2rem 0;
+	font-size: 39px;
+	font-size: 2rem;
+	font-weight:550;
+	color: #203260;
+	text-align:center;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+
+
+
+.synergy .headline{
+	margin: 2em 0 1em;
+	padding: 2em 0 0;
+	color: #FFF
+}
+
+.blueText {
+	color: #2D7DD2;
+}
+
+.orangeTextTitle{
+	color: #ffc529;
+}
+
+.orangeTextSubtitle {
+	color: #ffc529;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	line-height: 1.6rem;
+}
+
+.greenText {
+	color: #97CC04;
+}
+
+.synergy h3{
+	color:#000;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	line-height: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.synergy h4 {
+	font-size: 1.1rem;
+	text-align: center;
+	margin-bottom: .5rem;
+    font-weight: 400;
+	letter-spacing: 0.140625em;
+	text-transform: none;
+	color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.625;
+}
+
+.synergy p{
+	color:#898989;
+	font-size:20px;
+	line-height:25px;
+	font-weight:400;
+	padding:20px 0px;
+	text-align:center;
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.synergy .cx_product_box{
+	position:relative;
+	display:block;
+	margin:auto auto 70px auto;
+	width:100%;
+	max-width:400px;
+	height:260px;
+	line-height:260px;
+	background:#FFF;
+	text-align:center;
+}
+.synergy .cx_product_box img{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:15px;
+	max-width:70%;
+}
+.synergy .cx_product_box .cx_bottom{
+	position:absolute;
+	bottom:-37px;
+	left:30px;
+	right:30px;
+	background:#203260;
+	height:75px;
+	line-height:75px;
+}
+.synergy .cx_product_box p{
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	color:#FFF;
+	font-weight:400;
+	text-align:center;
+	padding:0px 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+@media (max-width:1024px){
+.synergy h2{
+	font-size:12px;
+}
+.synergy h3{
+	font-size:35px;
+}
+.synergy p{
+	font-size:15px;
+	line-height:22px;
+}
+}
+@media (max-width:991px){
+.synergy h3{
+	font-size:1.5em;
+}
+}
+@media (max-width:767px){
+.synergy h3{
+	font-size:25px;
+}
+}
+
+@media screen and (max-width: 480px) {
+	.synergy h3 {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,33 @@
+.section-thanks{
+    position: relative;
+    margin: 5em 0;
+    padding: 2em 5em;
+    border: 2px;
+    border-radius: 15px;
+}
+.section-thanks .container {
+    padding: 3em 3em;
+    max-width: 1240px;
+    width: 10em;
+    background: rgba(255,255,255,0.85);
+}
+
+.thanks {
+    display: inline-block;
+    background: rgba(255,255,255,0.85);
+    padding: 2.5em 4em;
+    border: 2px;
+    border-radius: 15px;
+    color: #000000;
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+
+.thanks p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 0px 0px 40px 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}

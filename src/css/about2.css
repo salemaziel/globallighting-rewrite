@@ -1,0 +1,267 @@
+.section-about{
+	position:relative;
+	margin-top: 100px;
+}
+
+.section-about container-fluid row{
+	margin:0px;
+	padding: 10px;
+}
+.section-about .cx_left{
+	position:relative;
+}
+.section-about .cx_right{
+	position:relative;
+	padding:5% 0px 0px 5%;
+}
+.section-about .cx_right .cx_list{
+	position:relative;
+	padding:500px 0px 0px 100px;
+	margin-bottom:20px;
+	min-height:80px;
+}
+.section-about .cx_right .cx_list .cx_icon{
+	position:absolute;
+	left:0px;
+	width:75px;
+}
+.section-about .cx_about{
+	position: relative;
+	padding:5%;
+}
+.section-about h1{
+	color: #ffffff;
+}
+
+.section-about h1 span {
+	color: #ffc529;
+}
+
+.section-about h2{
+	color:#ffc529;
+	font-size:13px;
+	font-weight:700;
+	text-transform:uppercase;
+	margin:0px;
+	padding:0px 0px;
+	text-align:left;
+}
+.section-about h3{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:500;
+	text-align:left;
+}
+.section-about h4{
+	font-size:20px;
+	font-weight:600;
+	color:#2d2d2d;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+.section-about p{
+	color:#ffffff;
+	font-size:20px;
+	line-height:25px;
+	font-weight:400;
+	padding:0px 0px 40px 0px;
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+.section-about p span {
+	color: #ffc529;
+}
+.blurb {
+	background: rgba(255,255,255,0.85);
+	padding: 1em;
+	border: 2px;
+	border-radius: 15px;
+	color: #000000;
+	margin: 1em;
+}
+.blurb p{
+	display: inline-block;
+	border: 2px;
+	color: #000000;
+	margin: 0;
+}
+.quote{
+	display: block;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2em 0 2rem;
+    margin: 1rem auto;
+    color: #ffc529;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+
+.thumbnail {
+	max-width: 260px;
+}
+
+
+@media screen and (min-width: 2400px) {
+	.section-about .cx_about{
+		position: relative;
+		padding: 3em 0 1em 0;
+	}
+	p .blurb {
+		font-size: 1em;
+		line-height: 1.5em;
+		padding: 1rem;
+		color: #000000;
+	}
+	hr {
+		padding: 5px 0 0 0;
+	}
+	/*
+	.aboutjack {
+	width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+	
+	.section-about h2{
+		color:#ffc529;
+		font-size:13px;
+		font-weight:700;
+		text-transform:uppercase;
+		margin:0px;
+		padding:0px 0px;
+		text-align:left;
+	}
+	.section-about h3 {
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		color: #ffffff;
+		font-size: 1.5em;
+		font-weight: 400;
+		text-align: left;
+	}
+	.section-about p span {
+		color: #ffc529;
+		font-size: 1.5em;
+		margin: 4rem 0 0 0;
+	}
+
+	.section-about p {
+		font-size: 1em;
+		line-height: 25px;
+		font-weight: 400;
+		padding: 10px 0px 40px 0px;
+		margin: 0px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.quote {
+		display: block;
+		text-align: center;
+		font-size: 1.5em;
+		padding: 1em 1.5em;
+		margin: 2em 0;
+		color: #ffc529;
+		text-shadow: 3px 3px 10px #000000;
+	}
+
+}
+
+@media (max-width:1280x){
+.section-about .cx_right .cx_list .cx_icon{
+	position:absolute;
+	left:0px;
+	width:75px;
+}
+.section-about h2{
+	font-size:12px;
+}
+.section-about h3{
+	padding:0px 0px 30px 0px;
+	font-size:35px;
+}
+.section-about h4{
+	font-size:18px;
+}
+.section-about p{
+	font-size:15px;
+}
+}
+@media (max-width:980px){
+.section-about .cx_right{
+	position:relative;
+	padding:5% 0px 0px 0%;
+}
+.section-about h2{
+	font-size:12px;
+}
+.section-about h3{
+	padding:0px 0px 20px 0px;
+	font-size:30px;
+}
+.section-about h4{
+	font-size:20px;
+}
+.section-about p{
+	font-size:16px;
+}
+}
+@media (max-width:736px){
+.section-about .cx_right{
+	position:relative;
+	padding:50px 0px 0px 0%;
+}
+.section-about h2{
+	font-size:12px;
+}
+.section-about h3{
+	padding:0px 0px 20px 0px;
+	font-size:25px;
+}
+.section-about h4{
+	font-size:16px;
+}
+.section-about p{
+	font-size:13px;
+}
+.blurb p {
+	padding: 2.5em 1em;
+}
+}
+
+@media screen and (max-width:480px){
+	.blurb p {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
+	.section-about .cx_about {
+		position: relative;
+		padding: 5%;
+	}
+
+	.blurb {
+		background: rgba(255,255,255,0.85);
+		padding: 0;
+		border: 2px;
+		border-radius: 15px;
+		color: #000000;
+		margin: 0;
+	}
+/*
+	.aboutjack {
+		width: 90%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}*/
+}

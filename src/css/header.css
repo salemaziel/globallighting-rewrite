@@ -1,0 +1,126 @@
+/*** ### Top Bar ### ***/
+.cx_top_bar{
+	position:relative;
+	line-height:60px;
+	background:#000000;
+}
+.cx_top_bar .cx_contact{
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	width:100%;
+}
+.cx_top_bar .cx_contact p{
+	display:inline-block;
+	vertical-align:middle;
+	position:relative;
+	padding:0px 0px 0px 30px;
+	margin:0px 50px 0px 0px;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:700;
+}
+.cx_top_bar .cx_contact p:last-child{
+	margin-right:0px;
+}
+.cx_top_bar .cx_contact p span{
+	font-weight:400;
+}
+.cx_top_bar .cx_contact p .cx_icon{
+	position:absolute;
+	color:#ffba00;
+	left:0px;
+  	top: 10px;
+  	transform: translate(50%,-50%);
+}
+.cx_language{
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	text-align:right;
+	width:100%;
+}
+.cx_language .cx_search{
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	color:#FFF;
+	font-size:20px;
+}
+.cx_language .dropdown{
+	display:inline-block;
+	vertical-align:middle;
+}
+.cx_language button{
+	color:#FFF;
+	background:none;
+	border:none;
+	height:50px;
+	padding:0px 10px;
+	font-size:15px;
+	font-weight:700;
+	outline:none;
+}
+.cx_language  .dropdown-menu{
+	z-index:10000;
+}
+.cx_language  .dropdown-menu li a{
+	padding:0px 10px;
+	color:#000;
+	background:#FFF;
+	text-decoration:none !important;
+	font-size:15px;
+	font-weight:700;
+}
+@media (max-width:1024px){
+.cx_top_bar .cx_contact p{
+	padding:0px 0px 0px 25px;
+	margin:0px 10px 0px 0px;
+	font-size:13px;
+}
+.cx_top_bar .cx_contact p .cx_icon{
+  	top: 8px;
+}
+.cx_language .cx_search{
+	font-size:18px;
+}
+.cx_language button{
+	padding:0px 10px;
+	font-size:13px;
+}
+.cx_language  .dropdown-menu li a{
+	font-size:13px;
+}
+}
+
+@media (max-width:767px){
+.cx_top_bar{
+	line-height:normal;
+	padding:15px 0px;
+}
+.cx_top_bar .cx_contact p{
+	width:100%;
+	padding:0px 0px 0px 25px;
+	margin:auto auto 10px auto !important;
+	font-size:12px;
+	display:block;
+	max-width:700px;
+	word-break:break-all;
+}
+.cx_top_bar .cx_contact p .cx_icon{
+  	top: 8px;
+}
+.cx_language .cx_search{
+	font-size:18px;
+}
+.cx_language button{
+	padding:0px 10px;
+	font-size:13px;
+}
+.cx_language  .dropdown-menu li a{
+	font-size:13px;
+}
+}

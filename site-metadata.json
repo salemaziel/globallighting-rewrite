@@ -1,0 +1,40 @@
+{
+    "title": "Global Lighting Project | Empowering The World",
+    "author": "Global Lighting Project Staff",
+    "description": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights",
+    "siteUrl": "https://globallightingproject.com",
+    "lang": "en",
+    "meta":[
+        {
+          "name": "description",
+          "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
+        },
+        {
+          "property": "og:title",
+          "content": "Global Lighting Project"
+        },
+        {
+            "property": "og:description",
+            "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
+        },
+        {
+            "property": "og:type",
+            "content": "https://globallightingproject.org"
+        },
+        {
+            "name": "twitter:card",
+            "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
+        },
+        {
+            "name": "twitter:creator",
+            "content": "site.siteMetadata.author"
+        },
+        {
+            "name": "twitter:title",
+          "content": "Global Lighting Project"
+        },
+        {
+            "name": "twitter:description",
+            "content": "Non-profit organization on a mission to aid developing communities with solar-powered LED lights"
+        }]
+}

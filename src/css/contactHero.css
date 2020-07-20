@@ -1,0 +1,111 @@
+/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+
+/*** ### Section contacthero ### ***/
+.section-contacthero{
+	position:relative;
+	background-size:cover;
+	padding:75px 20px 75px 0px;
+	background-position: center;
+	margin-top: 100px;
+}
+
+.section-contacthero .cx_inner{
+	position:relative;
+	z-index:2;
+}
+.section-contacthero h1{
+	color:#ffc529;
+	font-size:48px;
+	font-weight:700;
+	margin:0px;
+	padding:0px;
+	text-transform:uppercase;
+    line-height:normal;
+    text-align: center;
+    z-index: 100;
+}
+.section-contacthero h1 span{
+	color:#FFF;
+}
+
+.section-contacthero h2{
+    color:#ffc529;
+	font-size:36px;
+	font-weight:700;
+	margin:0px;
+	padding:0px;
+	text-transform:uppercase;
+	line-height:normal;
+    text-align: center
+}
+    
+.section-contacthero p{
+	color:#ffffff;
+	font-size:22px;
+	font-weight:400;
+	margin:0px;
+	padding:20px 0px 40px 0px;
+	/*text-transform:uppercase;*/
+    line-height:normal;
+    text-align: center;
+}
+.section-contacthero a{	
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	height:50px;
+	line-height:50px;
+	padding:0px 25px;
+	border-radius:5px;
+	background:#ffc529;
+	text-decoration:none;
+	outline:none;
+	color:#ffc529;
+	font-size:16px;
+	font-weight:700;
+	text-align:center;
+	text-transform:uppercase;
+}
+@media (max-width:1024px){
+.section-contacthero h1{
+	font-size:50px;
+}
+.section-contacthero p{
+	font-size:20px;
+	padding:20px 0px 30px 0px;
+}
+.section-contacthero a{	
+	height:40px;
+	line-height:40px;
+	padding:0px 20px;
+	font-size:15px;
+}
+}
+@media (max-width:991px){
+.section-contacthero{
+	padding:75px 0px;
+}
+.section-contacthero h1{
+	font-size:40px;
+}
+.section-contacthero p{
+	font-size:18px;
+	padding:20px 0px;
+}
+}
+@media (max-width:767px){
+.section-contacthero{
+	padding:50px 0px;
+}
+.section-contacthero h1{
+	font-size:30px;
+}
+.section-contacthero p{
+	font-size:16px;
+	padding:20px 0px;
+}
+}
+
+

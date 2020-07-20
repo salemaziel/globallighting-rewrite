@@ -1,0 +1,19 @@
+export const WhatWeDoImage = require('./What-We-Do-collage.jpg');
+export const Truck = require('./vector-graphics/truck-md-75x31.jpg');
+export const Classroom = require('./vector-graphics/classroom-78x63.jpg');
+export const Research = require('./vector-graphics/science-75x54.jpg');
+export const Logo = require('./image04.png');
+export const LiveOneImage = require('./IMG_1862-edited-186x162.jpg');
+export const LiveTwoImage = require('./productlineup-resized-186x162.jpg');
+export const LiveThreeImage = require('./about-us-3-402.5x268.33.jpg');
+export const PinkDotsImage = require('./pink-dots.jpg');
+export const UVsterilize = require('./synergy-water-3-468x312.jpg');
+export const Hydroveggie = require('./1-young-tomato-468x312.jpg');
+export const Nightlight = require('./stock-nightlight-468x312.jpg');
+export const WholeRoom_1 = require('./covid19/whole-room-1.png');
+export const JackonMtn = require('./jack-edited-3.png');
+export const LEDversus = require('./ledvsothers.png');
+export const Lightspectrum = require('./lightspectrum.jpg');
+
+//export const Truck = require('./vector-graphics/truck-md-75x31.jpg');
+//export const Truck = require('./vector-graphics/truck-md-75x31.jpg');

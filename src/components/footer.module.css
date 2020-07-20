@@ -1,0 +1,68 @@
+footer.Foot {
+  position: relative;
+  display: grid;
+  margin: 0rem 0 0 0;
+  /**padding:20px 0px 0px 0px;**/
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2em 0 !important;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.3em;
+  background-size: cover;
+  background-position: 0hvmax;
+}
+
+.Certified {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.875em;
+  line-height: 1.625;
+  font-weight: 200;
+}
+
+.Copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.875em;
+  line-height: 1.625;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 767px) {
+  footer.Foot {
+    margin-top: 2rem;
+  }
+
+  .Certified {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 0.875em;
+    line-height: 1.625;
+  }
+
+  .Copyright {
+    letter-spacing: 0rem;
+    width: 100%;
+    font-size: 0.875em;
+    line-height: 1.625;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer.Foot {
+    margin-top: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  footer.Foot {
+    margin-top: 1.5rem;
+  }
+
+  .Certified {
+    font-size: 0.875em;
+  }
+
+  .Copyright {
+    font-size: 0.875em;
+  }
+}

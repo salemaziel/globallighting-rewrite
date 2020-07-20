@@ -1,0 +1,181 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+/*** ### Section Six ### ***/
+.section-six{
+	position:relative;
+	padding:50px 0px;
+	background:#FFF;
+}
+.section-six h2{
+	color:#ffc529;
+	font-size:13px;
+	font-weight:700;
+	text-transform:uppercase;
+	margin:0px;
+	padding:20px 0px;
+	text-align:center;
+}
+.section-six h3{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	color:#203260;
+	font-size:45px;
+	font-weight:700;
+	text-align:center;
+}
+.section-six p{
+	color:#898989;
+	font-size:20px;
+	line-height:25px;
+	font-weight:400;
+	padding:20px 0px;
+	text-align:center;
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+@media (max-width:1024px){
+.section-six h2{
+	font-size:12px;
+}
+.section-six h3{
+	font-size:35px;
+}
+.section-six p{
+	font-size:18px;
+	line-height:22px;
+}
+}
+@media (max-width:991px){
+.section-six h2{
+	font-size:12px;
+}
+.section-six h3{
+	font-size:30px;
+}
+.section-six p{
+	font-size:16px;
+	line-height:20px;
+}
+}
+@media (max-width:767px){
+.section-six h2{
+	font-size:12px;
+}
+.section-six h3{
+	font-size:25px;
+}
+}
+/*** ### Section Post Area ### ***/
+.section-post-area{
+	position:relative;
+	background: #FFF;
+}
+.section-post-area .cx_post_box{
+	margin-bottom:50px;
+}
+.section-post-area .cx_post_image{
+	position:relative;
+}
+.section-post-area .cx_post_image img{
+	width:100%;
+}
+.section-post-area .cx_post_image .cx_date{
+	position:absolute;
+	bottom:15px;
+	left:15px;
+	width:70px;
+	padding:15px 0px;
+	text-align:center;
+	background:#e8a900;
+	font-weight:700;
+	font-size:18px;
+	color:#FFF;
+}
+.section-post-area .cx_post_text{
+	position:relative;
+	padding:25px 20px;
+}
+.section-post-area .cx_post_text .cx_name{
+	position:relative;
+	margin:15px 0px;
+	padding:0px 0px 0px 50px;
+	font-size:13px;
+	color:#e8a900;
+	font-weight:600;
+	font-family: 'Open Sans', sans-serif;
+	line-height:30px;
+}
+.section-post-area .cx_post_text .cx_name .cx_image{
+	position:absolute;
+	left:0px;
+	width:35px;
+}
+.section-post-area .cx_post_text .cx_name .cx_image img{
+	width:35px;
+	height:35px;
+	border-radius:50%;
+}
+.section-post-area .cx_post_text .cx_name .cx_tag{
+	color:#a4a7ab;
+}
+.section-post-area .cx_post_text h2{
+	color:#203260;
+	font-size:24px;
+	font-weight:600;
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.section-post-area .cx_post_text h2:hover{
+	text-decoration: underline;
+}
+.section-post-area .cx_post_text p{
+	color:#939393;
+	font-size:16px;
+	margin:0px;
+	padding:0px;
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+}
+.section-post-area .cx_post_text a{
+	display:inline-block;
+	vertical-align:top;
+	color:#1a2d5c;
+	text-transform:uppercase;
+	text-decoration:none;
+	border:none;
+	outline:none;
+	font-size:15px;
+	font-weight:700;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	margin:20px 0px 0px 0px;
+}
+.section-post-area .row {
+	justify-content: start;
+}
+
+@media (max-width:1024px){
+.section-post-area .cx_post_text h2{
+	font-size:22px;
+}
+.section-post-area .cx_post_text p{
+	font-size:15px;
+}
+}
+@media (max-width:991px){
+.section-post-area .cx_post_text h2{
+	font-size:20px;
+}
+}
+@media (max-width:767px){
+.section-post-area .cx_post_text h2{
+	font-size: 2em;
+}
+.section-post-area .cx_post_text p{
+	font-size: 1.5em;
+}
+}

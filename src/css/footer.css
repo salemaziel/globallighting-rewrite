@@ -1,0 +1,72 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
+
+/*** ### Footer ### ***/
+footer{
+	position:relative;
+	display: grid;
+	margin: 0rem 0 0 0;
+	/**padding:20px 0px 0px 0px;**/
+	background:rgba(0, 0, 0, 0.5);
+	padding: 2em 0!important;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.3em;
+	background-size: cover;
+	background-position: 0hvmax;
+}
+#text03 {
+    color: rgba(255,255,255,0.4);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.875em;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+
+#text05 {
+    color: rgba(255,255,255,0.4);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.875em;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 736px) {
+	#main > .inner > footer {
+        margin-top: 2rem;
+    }
+	#text05 {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 0.875em;
+        line-height: 1.625;
+	}
+	
+	#text03 {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 0.875em;
+        line-height: 1.625;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	#main > .inner > footer {
+		margin-top: 1.75rem;
+	}
+}
+
+
+
+@media screen and (max-width: 360px) {
+	#main > .inner > footer {
+        margin-top: 1.5rem;
+    }
+	#text03 {
+        font-size: 0.875em;
+    }
+	#text05 {
+		font-size: 0.875em;
+	}
+}

@@ -1,0 +1,46 @@
+stackbitVersion: ~0.2.0
+ssgName: custom
+buildCommand: gatsby build
+publishDir: public
+staticDir: static
+uploadDir: images
+pagesDir: content
+models:
+  config:
+    type: data
+    label: Config
+    file: site-metadata.json
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: author
+        label: Author
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: siteUrl
+        label: Site URL
+      - type: string
+        name: twitter
+        label: Twitter
+
+  blog:
+    type: page
+    label: Blog
+    folder: blog
+    layout: blog-post
+    fields:
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: date
+        name: date
+        label: Date
+        required: true
+      - type: string
+        name: description
+        label: Description

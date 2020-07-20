@@ -1,0 +1,29 @@
+.SignUpTitle h3 {
+    text-align: center;
+    color: #FFA800;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05rem;
+    width: calc(100% + 0.05rem);
+    font-size: 1.125em;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.SubmitButton {
+    width: 30rem;
+    height: 2.625rem;
+    line-height: 2.625rem;
+    padding: 0 1.3125rem;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.275rem;
+    padding-left: calc(0.275rem + 1.3125rem);
+    font-weight: 800;
+    border-radius: 0.25rem;
+    background-color: #ffc529;
+    color: #ffffff;
+    -moz-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    position: relative;
+}

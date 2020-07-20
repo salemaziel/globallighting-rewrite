@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: static/images
+public_folder: /images
+collections:
+  - name: config
+    label: Config
+    files:
+      - name: config
+        label: Config
+        file: site-metadata.json
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: false
+          - widget: string
+            name: author
+            label: Author
+            required: false
+          - widget: string
+            name: description
+            label: Description
+            required: false
+          - widget: string
+            name: siteUrl
+            label: Site URL
+            required: false
+          - widget: object
+            name: social
+            label: Social
+            required: false
+            fields:
+              - widget: string
+                name: twitter
+                label: Twitter
+                required: false
+  - name: blog
+    label: Blogs
+    folder: content/blog
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+      - widget: date
+        name: date
+        label: Date
+        required: true
+      - widget: string
+        name: description
+        label: Description
+        required: false
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
